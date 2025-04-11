@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 950px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hovedTekstDiv {
+    margin: 0px 0px 50px 0px;
+}
+
+.hovedTekst {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.hovedTekst2 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.searchSystem {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    background-color: white;
+    font-size: 30px;
+    border: 1px solid rgb(55, 0, 105);
+    outline: none;
+    border-radius: 30px;
+
+    padding-right: 5px;
+}
+
+.inputForBiler {
+    width: 470px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 35px 15px 35px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.searchIconButton {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.searchIcon {
+    width: 45px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.viseDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 10px;
+
+    margin: 20px 0px 0px 0px;
+}
+
+.bildetAvBil {
+    width: 400px;
+    border: 2px solid;
+    border-radius: 10px;
+
+    margin: 30px 0px 0px 0px;
+}
+
+.textBiler {
+    width: 430px;
+    margin: 20px 0px 0px 0px;
+}
+
+.model {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    
+    margin: 15px;
+}
+
+.kategori {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    
+    margin: 15px;
+}
+
+.fart {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    
+    margin: 15px;
+}
+
+.pris {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    
+    margin: 15px;
+}
+
+.displayFeil {
+    display: none;
+}
+
+.centerForFeil {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px 5px 2px 5px;
+
+    margin: 60px 0px 0px 0px;
+}
+
+.nothing {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}

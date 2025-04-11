@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biler</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2018/05/21/12/50/icon-3418201_1280.png">
+</head>
+<body>
+
+    <section>
+
+        <div class="center">
+
+            <div class="hovedTekstDiv">
+                <p class="hovedTekst">Her du kan type inn noe om biler</p>
+                <p class="hovedTekst2">Eksempler som du kan type: Ferrari F40, Porsche 911, Lamborghini Countach, Porsche 911 Turbo S, McLaren 720S</p>
+            </div>
+
+
+
+            <div class="searchSystem">
+                <input type="text" placeholder="Søk systemet..." class="inputForBiler">
+                <button class="searchIconButton" onclick="søkSubmit()"><img src="./Icons/icons8-search-100.png" alt="" class="searchIcon"></button>
+            </div>
+
+
+
+            <div class="displayNone">
+
+                <div class="viseDiv">
+                    <img src="" alt="" class="bildetAvBil">
+
+                    <div class="textBiler">
+                        <p class="model"></p>
+                        <p class="kategori"></p>
+                        <p class="fart"></p>
+                        <p class="pris"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="displayFeil">
+
+                <div class="centerForFeil">
+
+                    <p class="nothing">Beklager, men det synes at det finnes ikke sonne bil i våre systemet</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
