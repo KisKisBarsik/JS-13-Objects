@@ -52,39 +52,44 @@ let biler = [
 ]
 
 function søkSubmit() {
-
+ 
     console.log(biler);
-
+ 
     var søkSystem = document.querySelector(".inputForBiler").value
-
+ 
     var displayNone = document.querySelector(".displayNone")
-
+ 
     var bildetAvBil = document.querySelector(".bildetAvBil")
     var modelP = document.querySelector(".model")
     var kategoriP = document.querySelector(".kategori")
     var fartP = document.querySelector(".fart")
     var prisP = document.querySelector(".pris")
-
+ 
     var displayFeil = document.querySelector(".displayFeil")
-
+ 
     var funnet = false;
-
+    displayNone.style.display = "none";
+    displayFeil.style.display = "none";
+ 
     biler.forEach(element => {
-
+ 
         if (søkSystem === element.Model) {
-
+            funnet = true;
             displayNone.style.display = "block"
-
+ 
             bildetAvBil.src = element.Bildet
             modelP.textContent = element.Model
             kategoriP.textContent = element.Kategori
             fartP.textContent = element.Fart
             prisP.textContent = element.Pris
-            
+           
         }
-
+ 
     });
-
+    if (funnet === false) {
+        displayFeil.style.display = "block"
+        displayNone.style.display = "none"
+    }
 }
 
 // else if (søkSystem != element.Model) {
@@ -108,8 +113,6 @@ søkSystem.addEventListener('keypress', function(event){
     if (event.key === 'Enter') {
 
         søkSubmit();
-
-        console.log("fungerer");
         
     }
 
