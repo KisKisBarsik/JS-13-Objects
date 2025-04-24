@@ -100,3 +100,15 @@ function søkSubmit() {
 //     }
 
 // }
+
+var søkSystem = document.querySelector(".inputForBiler").value
+
+søkSystem.addEventListener('keypress', function(event){
+
+    if (event.key === 'Enter') {
+
+        søkSubmit();
+        
+    }
+
+})
