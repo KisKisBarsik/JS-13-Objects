@@ -91,3 +91,16 @@ function søkSubmit() {
         displayNone.style.display = "none"
     }
 }
+
+var searchSystem = document.querySelector(".inputForBiler")
+
+searchSystem.addEventListener('keypress', function(event){
+
+    if (event.key === 'Enter') {
+        console.log("test");
+        
+        søkSubmit();
+        
+    }
+
+})
