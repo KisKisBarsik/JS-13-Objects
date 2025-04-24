@@ -108,6 +108,8 @@ søkSystem.addEventListener('keypress', function(event){
     if (event.key === 'Enter') {
 
         søkSubmit();
+
+        console.log("fungerer");
         
     }
 
