@@ -91,17 +91,3 @@ function søkSubmit() {
         displayNone.style.display = "none"
     }
 }
-
-// else if (søkSystem != element.Model) {
-
-//     if (displayFeil.style.display == "block" ) {
-
-//         displayFeil.style.display = "none"
-
-//     } else {
-
-//         displayFeil.style.display = "block"
-
-//     }
-
-// }
